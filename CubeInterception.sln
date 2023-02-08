@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeInterception", "CubeInterception\CubeInterception.csproj", "{22BF0E93-877E-4540-B082-5E3796A14490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeInterceptionTest", "CubeInterceptionTest\CubeInterceptionTest.csproj", "{F8D7AB14-2F2A-469D-A092-F6FB44825D59}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22BF0E93-877E-4540-B082-5E3796A14490} = {22BF0E93-877E-4540-B082-5E3796A14490}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22BF0E93-877E-4540-B082-5E3796A14490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BF0E93-877E-4540-B082-5E3796A14490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BF0E93-877E-4540-B082-5E3796A14490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BF0E93-877E-4540-B082-5E3796A14490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D7AB14-2F2A-469D-A092-F6FB44825D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D7AB14-2F2A-469D-A092-F6FB44825D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D7AB14-2F2A-469D-A092-F6FB44825D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D7AB14-2F2A-469D-A092-F6FB44825D59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7406B8B2-09B6-40B3-8AD9-B9C2C5E51F39}
+	EndGlobalSection
+EndGlobal
